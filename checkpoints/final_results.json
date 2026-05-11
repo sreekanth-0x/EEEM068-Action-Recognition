@@ -1,0 +1,61 @@
+{
+  "Part_A": {
+    "TimeSFormer": {
+      "Top1": 81.91,
+      "Top5": 95.21,
+      "params": 121277977
+    },
+    "VideoMAE": {
+      "Top1": 93.09,
+      "Top5": 98.94,
+      "params": 86244889
+    },
+    "Winner": "VideoMAE"
+  },
+  "Part_B_Ablations": {
+    "num_frames": {
+      "4": 74.87,
+      "8": 80.75,
+      "16": 79.68
+    },
+    "finetune_strategy": {
+      "head": 80.75,
+      "partial": 87.7,
+      "full": 80.75
+    },
+    "temporal_sampling": {
+      "uniform": 80.75,
+      "random": 80.75,
+      "dense": 80.75
+    }
+  },
+  "Part_C_Robustness": {
+    "seeds": [
+      42,
+      123,
+      2024
+    ],
+    "top1_each": [
+      93.09,
+      95.74,
+      97.87
+    ],
+    "top1_mean": 95.57,
+    "top1_std": 1.96,
+    "top5_mean": 99.29,
+    "top5_std": 0.25
+  },
+  "Part_D_Localisation": {
+    "best_loss": 0.0337,
+    "mean_iou": 0.9687,
+    "trainable_params": 3430938
+  },
+  "Part_E_Interpretability": {
+    "methods": [
+      "Attention maps",
+      "t-SNE",
+      "Error analysis"
+    ],
+    "status": "Complete"
+  }
+}
