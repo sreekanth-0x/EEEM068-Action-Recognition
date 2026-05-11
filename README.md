@@ -140,4 +140,24 @@ EEEM068-Action-Recognition/
 │ └── error_analysis.png
 │
 └── contributions/
-└── group_contributions.md ← WHO DID WHAT
+└── group_contributions.md
+
+← WHO DID WHATnotebooks/EEEM068_project.ipynb
+Your MAIN notebook with ALL 5 parts (A, B, C, D, E) in one file. This is the most important file. When the professor runs it — it must work from top to bottom without errors. Include all code: data loading, TimeSFormer training, VideoMAE training, ablations, robustness, DETR, attention maps, t-SNE, error analysis, Gradio demo.
+REQUIRED Most important file
+📄report/EEEM068_IEEE_Report.pdf
+Your 5-page IEEE format technical report PDF. The one I just created for you. Upload this directly to GitHub. Also attach this when replying to your TA's email TODAY.
+REQUIRED Send to TA today
+📊training_logs/training_log_[name]_week[N].md
+All 13 weekly logs for EACH of the 5 members. You already have these — I created them all. Each log covers: what lectures were attended, what was coded, what experiments were run, hyperparameters used, results obtained, and next week plan. Professor checks these to see individual contribution.
+REQUIRED 5 members × 13 weeks = 65 files
+🖼️results/*.png
+All output images saved from your Colab notebook: confusion matrices, training curves, ablation bar charts, robustness chart, attention maps, t-SNE plot, error analysis images. Download these from your Google Drive checkpoints folder and upload to GitHub.
+Important Download from Drive first
+📋contributions/group_contributions.md
+A file listing WHO did WHAT in the project. Required by the professor — "Group leaders must confirm agreed contributions via email before submission." Put this in writing on GitHub too.
+URGENT — do today
+📝README.md
+Describes what the project is, what each file does, how to run the notebook, and what results to expect. GitHub shows this automatically on the main page when the TA visits your repo.
+Required
+
