@@ -7,7 +7,7 @@
 ## Group Members
 | Name            | Student ID| Email           |
 |------           |-----------|-------          |
-| Sreekanth Akula | 69633945  | sa@surrey.ac.uk |
+| Sreekanth Akula | 6963945  | sa@surrey.ac.uk |
 | Vamsi Kuchipudi | 6959104   | vk@surrey.ac.uk |
 | Ravitheja Jadi  | 6961879   | rj00844@surrey.ac.uk |
 | Vasavi Atkuri   | 6954763   | va@surrey.ac.uk |
