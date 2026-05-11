@@ -40,7 +40,7 @@ This project implements and evaluates two Vision Transformer architectures for v
 ---
 
 ## Repository Structure
-```
+``    `
 EEEM068-Action-Recognition/
 ├── README.md
 ├── notebooks/
@@ -63,7 +63,7 @@ EEEM068-Action-Recognition/
 └── contributions/
     └── group_contributions.md
 ```
-
+                                        
 ---
 
 ## How to Run
@@ -109,3 +109,35 @@ CHECKPOINT_DIR = '/content/drive/MyDrive/EEEM068/checkpoints'
 
 ## Module
 EEEM068 Applied Machine Learning | SEMR2 2025/6 | University of Surrey
+EEEM068-Action-Recognition/
+│
+├── README.md ← project description
+│
+├── notebooks/
+│ ├── EEEM068_project.ipynb ← YOUR MAIN NOTEBOOK
+│
+├── report/
+│ └── EEEM068_IEEE_Report.pdf ← YOUR REPORT PDF
+│
+├── training_logs/ ← ALL WEEKLY LOGS
+│ ├── training_log_sreekanth_week1.md
+│ ├── training_log_sreekanth_week2.md
+│ ├── ... week3 to week13.md
+│ ├── training_log_vamsi_week1.md
+│ ├── ... vamsi week2 to week13.md
+│ ├── training_log_ravitheja_week1.md
+│ ├── training_log_vasavi_week1.md
+│ └── training_log_sathwik_week1.md
+│
+├── results/ ← SCREENSHOTS AND CHARTS
+│ ├── confusion_matrix_timesformer.png
+│ ├── confusion_matrix_videomae.png
+│ ├── training_curves.png
+│ ├── ablation_results.png
+│ ├── robustness_results.png
+│ ├── attention_maps.png
+│ ├── tsne_features.png
+│ └── error_analysis.png
+│
+└── contributions/
+└── group_contributions.md ← WHO DID WHAT
